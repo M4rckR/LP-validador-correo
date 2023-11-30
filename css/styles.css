@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-opensans;
+    @apply bg-d-blue-intro;
+    @apply text-white;
+}
+
+.btn-nav {
+    @apply hover:font-bold hover:underline hover:underline-offset-1;
+}
